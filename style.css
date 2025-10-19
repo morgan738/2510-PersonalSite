@@ -9,19 +9,29 @@
 }
 body {
   height: 100%;
+  color: black;
+  background-color: rgb(246, 247, 216);
 }
-header {
+.header {
   text-align: center;
+  padding: 2%;
+  background-color: burlywood;
 }
 nav {
   display: flex;
   background-color: green;
-  border: 10px solid purple;
-  justify-content: space-between;
+  border: 10px none rgb(92, 128, 0);
+  justify-content: space-around;
 }
 nav a {
   border: 1px dotted black;
   background-color: aqua;
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
+  background-color: black;
+  cursor: move;
 }
 
 .firstbox {
@@ -58,7 +68,15 @@ nav a {
   object-fit: cover;
   padding: 1rem;
 }
-.header {
-}
+
 /* end about me page */
 /* start portfolio page */
+
+.flexcontainer section {
+  flex: 1;
+  text-align: center;
+  width: 100%;
+}
+.toptitle {
+  text-align: center;
+}
