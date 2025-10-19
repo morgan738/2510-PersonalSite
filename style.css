@@ -1,7 +1,7 @@
 .flexcontainer {
   display: flex;
   gap: 2rem;
-  border: 2px solid black;
+  border: 2px  black;
   flex-direction: column;
   padding: 10px;
   align-items: center;
@@ -65,7 +65,7 @@ nav a:hover {
   padding-bottom: 10px;
 }
 .submitbox h3 {
-  background-color: yellow;
+  background-color: 
 }
 .foodpic {
   display: flex;
@@ -107,9 +107,15 @@ nav a:hover {
 .toptitle {
   text-align: center;
 }
+.toptitle h1 {
+  color: blue;
+}
 
 .textblock {
   flex: 1;
+}
+.textblock h3 {
+  color: blue;
 }
 .foodpic img {
   width: 200px;
@@ -124,11 +130,31 @@ nav a:hover {
 
 }
 .mainpage img {
-  height: 500px;
+  height: 20rem;
 }
 figure blockquote {
   border: 1px;
   background-color: aqua;
 display: flex;
 
+}
+.centertitle1 {
+  background-color: yellow;
+  color: blue;
+  align-items: center;
+}
+.centertitle2 {
+  background-color: blue;
+  color: yellow;
+}
+.centertitle3 {
+  background-color: red;
+  color: yellow;
+}
+.porttitle {
+  
+  text-align: center
+}
+.porttitle h1 {
+  color: red;
 }
