@@ -22,31 +22,52 @@ nav > a {
 
 .homeHeader {
   display: flex;
+  align-items: center;
+  background-color: rgb(221, 248, 221);
+  border-radius: .2ch;
+
+  padding:1ch;
+}
+.inspiringQuote {
+  font-style: italic;
+  margin-left: 3rem;
+  text-decoration: none;
+}
+.homeBody {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 1rem;
+  justify-content: center;
+}
+.homeCopy {
+  max-width: 40%;
+
 }
 
+.homePhoto {
+  width: 550px;
+  height: 550px;
+margin-top: 1ch;
+}
 footer > div {
+  margin-top: 1rem;
+  margin-bottom; 1rem;
   background-color: green;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#homeGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+.footerPosition {
+  padding: 1ch;
+  margin-bottom: 1rem;
+  align-items: center;
 }
-.homeBio {
-  grid-column: 1 / 3;
-  grid-row: 2 / 5;
-  background-color: red;
+.footerCopy {
+  padding: 1ch;
+  color: white;
+  text-decoration: none;
 }
-.homePhoto {
-  grid-column: 3 / 6;
-  grid-row: 1 / 5;
-  background-color: blue;
-  object-fit: fill;
-  display: block;
-  width: 450px;
-  height: 600x;
+@media (width < 600px) {
+flex-direction: column;
 }
