@@ -326,7 +326,7 @@ the name/title, & the two-button navigation below the header content. */
 
 .header .content-inner {
   padding: 100px 30px;
-  background: url(../img/header-image.jpg) right bottom no-repeat;
+  background: url(./img/header-image.jpg) right bottom no-repeat;
   background-size: 47%;
 }
 
@@ -874,7 +874,7 @@ quote background, image/name formatting, rating stars, and custom navigation/dot
 .review .content-inner {
   position: relative;
   padding: 60px 30px;
-  background: url(../img/quote.png) right bottom no-repeat;
+  background: url(./img/quote.png) right bottom no-repeat;
 }
 
 .review .review-text p {
