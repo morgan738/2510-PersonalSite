@@ -127,16 +127,30 @@ nav a:hover {
 .mainpage {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
 }
 .mainpage img {
   height: 20rem;
+  width: 100%;
+  
+}
+.mainpage figure {
+  border: 3px solid blue;
+  background-color: yellow;
 }
 figure blockquote {
   border: 1px;
-  background-color: aqua;
+  background-color: red;
 display: flex;
+padding: 5px;
+justify-content: center;
+color: yellow;
 
+}
+figure figcaption {
+  text-align: right;
+  color: blue;
 }
 .centertitle1 {
   background-color: yellow;
@@ -157,4 +171,18 @@ display: flex;
 }
 .porttitle h1 {
   color: red;
+}
+.contact li {
+  list-style-type: none;
+
+}
+.leaveme {
+  display: block;
+  text-align: left;
+}
+
+@media (width < 600px){
+body {
+  background-color: aliceblue;
+}
 }
