@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 body {
   display: flex;
@@ -9,7 +10,7 @@ body {
   min-height: 100vh;
 }
 
-page.content {
+.site-content {
   flex: 1;
 }
 
@@ -46,6 +47,7 @@ nav a {
 }
 .bottom {
   display: flex;
+  position: static;
   justify-content: center;
   border: 2px solid gray;
   background-color: lightgray;
@@ -68,11 +70,9 @@ nav a {
 }
 
 .projectIMG {
-  width: 500px;
-  height: auto;
+  width: 100%;
+  aspect-ratio: 16 / 9;
   margin: 20px auto;
-  display: flex;
-  align-items: center;
 }
 
 .project_line {
