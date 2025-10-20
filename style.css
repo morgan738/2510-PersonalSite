@@ -34,7 +34,7 @@ main {
   flex-direction: column;
   gap: 10px;
   flex-grow: 1;
-  background-color: maroon;
+  background-color: black;
   max-width: 800px;
   margin: 0 auto;
   padding: 10px;
